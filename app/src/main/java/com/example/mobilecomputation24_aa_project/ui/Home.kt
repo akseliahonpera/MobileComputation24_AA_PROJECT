@@ -31,8 +31,6 @@ import androidx.compose.ui.unit.dp
 
 import com.example.mobilecomputation24_aa_project.R
 
-
-
 @Composable
 fun home(
 ) {
