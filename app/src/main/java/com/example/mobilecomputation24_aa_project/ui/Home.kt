@@ -28,11 +28,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 
 import com.example.mobilecomputation24_aa_project.R
 
 @Composable
 fun home(
+    navController:NavController
 ) {
 
     Text(
@@ -65,6 +67,11 @@ fun home(
             }
 
             Spacer(modifier = Modifier.height(10.dp))
+            
+            
+            Button(onClick = { navController.navigate("profile") }) {
+                Text(text = "Profile")
+            }
         }
         Spacer(modifier = Modifier.height(10.dp))
         Text(text = "Teksti 2")
