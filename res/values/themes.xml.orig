@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MobileComputation24_AA_PROJECT" parent="android:Theme.Material.Light.NoActionBar" />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MobileComputation24_AA_PROJECT" parent="android:Theme.Material.Light.NoActionBar" />
+>>>>>>> 3458e8484d15b869aa66dfd7749154a7af2aae57
+</resources>
